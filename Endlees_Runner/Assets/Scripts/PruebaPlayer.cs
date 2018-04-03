@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PruebaPlayer : MonoBehaviour {
 	
 	public float moveSpeed = 5.0f;
 	public float JumpForce;
 	private Rigidbody rb;
 	//Animator anim;
+
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 	//	anim = GetComponent<Animator> ();
+
 
 	}
 
@@ -26,6 +30,7 @@ public class PruebaPlayer : MonoBehaviour {
 		} 
 		
 	}
+
 
 	public void SetSpeed(float modifer){
 		moveSpeed = 5.0f + modifer;
