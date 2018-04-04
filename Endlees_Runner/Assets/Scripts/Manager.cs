@@ -7,8 +7,8 @@ public class Manager : MonoBehaviour {
 
 	private Transform playerTransform;
 	private float spawnZ = -3.0f;
-	private float tileLeght = 45.0f; // tamano de mapa 24
-	private float safeZone = 45.0f; //zona segura 15
+	private float tileLeght = 75.0f; // tamano de mapa 24
+	private float safeZone = 70.0f; //zona segura 15
 	private int amTileOnScreen = 3; // cantidad de mapas 7
 	private int lastPrefabIndex = 0;
 
