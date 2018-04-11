@@ -11,21 +11,25 @@ public class Score : MonoBehaviour {
 	private int maxDifficultyLevel = 10;
 	private int scoreToNextLevel=10;
 
+
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//score += Time.deltaTime;
-		 if (score >= scoreToNextLevel) 
+
+		if (score >= scoreToNextLevel) 
 			LevelUp ();
 		
 			score += Time.deltaTime * difficultyLevell;
 			scoreText.text = ((int)score).ToString ();
 		
 	}
+
+
 
 	void LevelUp() {
 		if (difficultyLevell == maxDifficultyLevel) 
