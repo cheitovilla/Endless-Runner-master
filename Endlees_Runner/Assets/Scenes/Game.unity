@@ -13903,6 +13903,7 @@ GameObject:
   - component: {fileID: 1698859809}
   - component: {fileID: 1698859810}
   - component: {fileID: 1698859811}
+  - component: {fileID: 1698859812}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -14061,6 +14062,87 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countTextDiamonds: {fileID: 1216321462}
+  audio: {fileID: 1780384342}
+--- !u!82 &1698859812
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698859801}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1702841500
 GameObject:
   m_ObjectHideFlags: 0
@@ -14712,9 +14794,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1780384339}
   - component: {fileID: 1780384340}
-  - component: {fileID: 1780384342}
   - component: {fileID: 1780384341}
-  - component: {fileID: 1780384343}
+  - component: {fileID: 1780384342}
   m_Layer: 0
   m_Name: Admin
   m_TagString: Untagged
@@ -14840,23 +14921,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1780384338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebdc8bb187cc54fbabe44620d67b3558, type: 3}
+  m_Script: {fileID: 11500000, guid: 97870c922a7aa46ada72fa04ae3dc0fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mus: {fileID: 1780384341}
-  MusicBackground: {fileID: 0}
---- !u!114 &1780384343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1780384338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555e5330d63884a3c9b0b21b1ca656d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pause: 0
+  spawnpoint: {fileID: 1698859805}
+  source: {fileID: 1698859812}
+  efectoDiamante: {fileID: 8300000, guid: 77eadf593b4e3490a959acd10dddc9cd, type: 3}
 --- !u!4 &1783394026 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4291856414483890, guid: 1ce8c9ef4d2b04db88adbe481e439097,

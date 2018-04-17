@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class Puntaje : MonoBehaviour {
 	public Text countTextDiamonds;
 	private int count;
+	public Audio audio;
+
 
 	// Use this for initialization
 	void Start () {
+		//audio = GetComponent<Audio> ();
 		count = 0;
 		SetCountText ();
 	}
@@ -17,6 +20,7 @@ public class Puntaje : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag ("Diamantes")) {
+			audio.SonarDiamante ();
 			other.gameObject.SetActive (false);
 			count = count + 10;
 			SetCountText ();
