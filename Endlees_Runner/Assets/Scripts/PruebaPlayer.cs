@@ -10,13 +10,13 @@ public class PruebaPlayer : MonoBehaviour {
 	private Rigidbody rb;
 	public Audio audio;
 
-	//Animator anim;
+	Animator anim;
 
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
-	//	anim = GetComponent<Animator> ();
+		anim = GetComponent<Animator> ();
 
 
 	}
@@ -27,12 +27,15 @@ public class PruebaPlayer : MonoBehaviour {
 		
 		rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y, moveSpeed);
 
-		if (Input.GetButtonDown ("Jump")) {
+		if (Input.GetKeyDown(KeyCode.X)) {
 			audio.SonarSalto ();
 			rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
-			//anim.angularVelocity 
+			anim.SetTrigger ("jump");
 		
 		} 
+		if (Input.GetKey(KeyCode.C)) {
+			anim.SetTrigger ("slide");
+		}
 		
 	}
 	 	
