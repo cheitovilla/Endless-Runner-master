@@ -1178,7 +1178,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1202,7 +1202,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!114 &1387907392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1218,6 +1218,7 @@ MonoBehaviour:
   source: {fileID: 1387907391}
   efectoMenu: {fileID: 8300000, guid: cde7fbcad17d647ff9cb922a13deee0a, type: 3}
   efectoDiamante: {fileID: 8300000, guid: 77eadf593b4e3490a959acd10dddc9cd, type: 3}
+  efectoSalto: {fileID: 8300000, guid: 549a1003a94734e0c88c6c036b7718aa, type: 3}
 --- !u!4 &1387907393
 Transform:
   m_ObjectHideFlags: 0

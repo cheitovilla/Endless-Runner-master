@@ -8,6 +8,7 @@ public class PruebaPlayer : MonoBehaviour {
 	public float moveSpeed = 5.0f;
 	public float JumpForce;
 	private Rigidbody rb;
+	public Audio audio;
 
 	//Animator anim;
 
@@ -25,7 +26,9 @@ public class PruebaPlayer : MonoBehaviour {
 		
 		
 		rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y, moveSpeed);
+
 		if (Input.GetButtonDown ("Jump")) {
+			audio.SonarSalto ();
 			rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
 			//anim.angularVelocity 
 		

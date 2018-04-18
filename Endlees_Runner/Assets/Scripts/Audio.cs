@@ -8,7 +8,7 @@ public class Audio : MonoBehaviour
 	public AudioSource source;
 	public AudioClip efectoMenu;
 	public AudioClip efectoDiamante;
-	//public AudioClip efectoChoque;
+	public AudioClip efectoSalto;
 	
 
 //aquí estan todos los audios asignados
@@ -32,8 +32,8 @@ public class Audio : MonoBehaviour
 	{
 		source.PlayOneShot (efectoMenu);
 	}
-	/*	public void SonarChoque ()
+		public void SonarSalto ()
 	{
-		source.PlayOneShot (efectoChoque);
-	} */
+		source.PlayOneShot (efectoSalto);
+	} 
 }
