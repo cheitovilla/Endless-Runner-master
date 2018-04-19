@@ -28,12 +28,14 @@ public class PruebaPlayer : MonoBehaviour {
 		rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y, moveSpeed);
 
 		if (Input.GetKeyDown(KeyCode.X)) {
-			audio.SonarSalto ();
-			rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
 			anim.SetTrigger ("jump");
+			rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
+
+			audio.SonarSalto ();
 		
 		} 
 		if (Input.GetKey(KeyCode.C)) {
+			rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y - 3, moveSpeed);
 			anim.SetTrigger ("slide");
 		}
 		
