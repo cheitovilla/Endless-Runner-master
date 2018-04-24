@@ -35,8 +35,9 @@ public class PruebaPlayer : MonoBehaviour {
 		
 		} 
 		if (Input.GetKey(KeyCode.C)) {
-			rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y - 3, moveSpeed);
+			//rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y - 3, moveSpeed);
 			anim.SetTrigger ("slide");
+
 		}
 		
 	}
