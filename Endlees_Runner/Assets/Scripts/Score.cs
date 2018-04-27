@@ -11,6 +11,7 @@ public class Score : MonoBehaviour {
 	private int maxDifficultyLevel = 10;
 	private int scoreToNextLevel=10;
 
+	private bool isDead = false;
 
 	// Use this for initialization
 	void Start () {
@@ -20,13 +21,17 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//score += Time.deltaTime;
+		if (isDead)
+			return;
+
 
 		if (score >= scoreToNextLevel) 
 			LevelUp ();
 		
 			score += Time.deltaTime * difficultyLevell;
 			scoreText.text = ((int)score).ToString ();
-		
+
+
 	}
 
 
@@ -40,4 +45,10 @@ public class Score : MonoBehaviour {
 		GetComponent<PruebaPlayer> ().SetSpeed (difficultyLevell);
 		Debug.Log (difficultyLevell);
 	}
+
+
+	public void onDeath(){
+		isDead = true;
+	}
+
 }
