@@ -40,12 +40,8 @@ public class PruebaPlayer : MonoBehaviour {
 
 		if (Input.GetKeyDown(KeyCode.C)) {
 			anim.SetTrigger ("slide");
+			audio.SonarDeslizar ();
 		}
-	/*	if (transform.position.z > 50) {
-			Debug.Log ("gané");
-			rb.velocity = new Vector3 (0,0,0);
-			anim.SetTrigger ("victory");
-		} */
 		
 	}
 
