@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
 
-	public float score = 0.0f;
+	private float score = 0.0f;
 	public Text scoreText;
 	private int difficultyLevell = 1;
 	private int maxDifficultyLevel = 10;
 	private int scoreToNextLevel=10;
 
 	private bool isDead = false;
+	public DeadMenu deadMenu;
+
 
 	// Use this for initialization
 	void Start () {
@@ -49,6 +51,7 @@ public class Score : MonoBehaviour {
 
 	public void onDeath(){
 		isDead = true;
+		deadMenu.ToggleEndMenu (score);
 	}
 
 }

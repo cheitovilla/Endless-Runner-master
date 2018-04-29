@@ -7,6 +7,7 @@ public class Puntaje : MonoBehaviour {
 	public Text countTextDiamonds;
 	private int count;
 	public Audio audio;
+	public Text puntajeFinalText;
 
 
 	// Use this for initialization
@@ -27,9 +28,10 @@ public class Puntaje : MonoBehaviour {
 		}
 	}
 
-	void SetCountText ()
+	public void SetCountText ()
 	{
-		countTextDiamonds.text = "Score: " + count.ToString ();
+		countTextDiamonds.text = count.ToString ();
+		puntajeFinalText.text = count.ToString ();
 	}
 
 	// Update is called once per frame
