@@ -17,7 +17,13 @@ public class AnimVFX : MonoBehaviour {
 
 		if (Input.GetKeyDown(KeyCode.X)) {
 			anim.SetTrigger ("jump");
-			gameObject.transform.position = new Vector3 (target.position.x, 0.7f, target.position.z);
+			gameObject.transform.position = new Vector3 (target.position.x, 0.7f, target.position.z + 1f);
+			//gameObject.transform.position = new Vector3 (0.022f, 0f, gameObject.transform.position.z);
+		} 
+
+		if (Input.GetKeyDown(KeyCode.C)) {
+			anim.SetTrigger ("slide");
+			gameObject.transform.position = new Vector3 (target.position.x, 0f, target.position.z + 2f);
 			//gameObject.transform.position = new Vector3 (0.022f, 0f, gameObject.transform.position.z);
 		} 
 
