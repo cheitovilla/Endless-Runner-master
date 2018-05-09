@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: dc4ae181f931546dbb87a497ce20f48b
+timeCreated: 1525845003
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arbil_10
+    100002: Arbil_11
+    100004: Arbil_12
+    100006: Arbil_13
+    100008: Arbil_14
+    100010: Arbil_9
+    100012: Aviso_Grande1
+    100014: Aviso_Publicitario
+    100016: Aviso_Publicitario 1
+    100018: Banca_1
+    100020: Banca_2
+    100022: Banca_3
+    100024: Banca_4
+    100026: Barrotes
+    100028: Barrotes1
+    100030: Barrotes10
+    100032: Barrotes11
+    100034: Barrotes12
+    100036: Barrotes13
+    100038: Barrotes14
+    100040: Barrotes15
+    100042: Barrotes2
+    100044: Barrotes3
+    100046: Barrotes4
+    100048: Barrotes5
+    100050: Barrotes6
+    100052: Barrotes7
+    100054: Barrotes8
+    100056: Barrotes9
+    100058: Calles
+    100060: Calles1
+    100062: Carretera1
+    100064: Carretera2
+    100066: Carretera2 1
+    100068: Carretera5
+    100070: //RootNode
+    100072: Edificios3
+    100074: group
+    100076: Lampara10
+    100078: Lampara12
+    100080: Lampara13
+    100082: Lampara4
+    100084: Lampara5
+    100086: Lampara6
+    100088: Lampara7
+    100090: Lampara8
+    100092: Lampara9
+    100094: Lamparas
+    100096: Ostaculo10
+    100098: Ostaculo11
+    100100: Ostaculo3
+    100102: Ostaculo3 1
+    100104: Ostaculo3 10
+    100106: Ostaculo3 11
+    100108: Ostaculo3 12
+    100110: Ostaculo3 13
+    100112: Ostaculo3 14
+    100114: Ostaculo3 15
+    100116: Ostaculo3 2
+    100118: Ostaculo3 3
+    100120: Ostaculo3 4
+    100122: Ostaculo3 5
+    100124: Ostaculo3 6
+    100126: Ostaculo3 7
+    100128: Ostaculo3 8
+    100130: Ostaculo3 9
+    100132: Ostaculo4
+    100134: Ostaculo4 1
+    100136: Ostaculo4 10
+    100138: Ostaculo4 11
+    100140: Ostaculo4 12
+    100142: Ostaculo4 13
+    100144: Ostaculo4 14
+    100146: Ostaculo4 15
+    100148: Ostaculo4 2
+    100150: Ostaculo4 3
+    100152: Ostaculo4 4
+    100154: Ostaculo4 5
+    100156: Ostaculo4 6
+    100158: Ostaculo4 7
+    100160: Ostaculo4 8
+    100162: Ostaculo4 9
+    100164: Ostaculo5
+    100166: Ostaculo5 1
+    100168: Ostaculo5 10
+    100170: Ostaculo5 11
+    100172: Ostaculo5 12
+    100174: Ostaculo5 13
+    100176: Ostaculo5 14
+    100178: Ostaculo5 15
+    100180: Ostaculo5 2
+    100182: Ostaculo5 3
+    100184: Ostaculo5 4
+    100186: Ostaculo5 5
+    100188: Ostaculo5 6
+    100190: Ostaculo5 7
+    100192: Ostaculo5 8
+    100194: Ostaculo5 9
+    100196: Ostaculo6
+    100198: Ostaculo6 1
+    100200: Ostaculo6 10
+    100202: Ostaculo6 11
+    100204: Ostaculo6 12
+    100206: Ostaculo6 13
+    100208: Ostaculo6 14
+    100210: Ostaculo6 15
+    100212: Ostaculo6 2
+    100214: Ostaculo6 3
+    100216: Ostaculo6 4
+    100218: Ostaculo6 5
+    100220: Ostaculo6 6
+    100222: Ostaculo6 7
+    100224: Ostaculo6 8
+    100226: Ostaculo6 9
+    100228: Parada_de_buses
+    100230: Parada_de_buses 1
+    100232: Parada_de_buses 2
+    100234: Parada_de_buses1
+    100236: pasted__Edificio_10
+    100238: pasted__Edificio_12
+    100240: pasted__Edificio_13
+    100242: pasted__Edificio_14
+    100244: pasted__Edificio_15
+    100246: pasted__Edificio_16
+    100248: pasted__Edificio_17
+    100250: pasted__Edificio_18
+    100252: pasted__Edificio_19
+    100254: pasted__Edificio_20
+    100256: pasted__Edificio_21
+    100258: pasted__Edificio_3
+    100260: pasted__Edificio_4
+    100262: pasted__Edificio_5
+    100264: pasted__Edificio_7
+    100266: pasted__Edificio_8
+    100268: pasted__Edificio_9
+    100270: pasted__Edificios
+    100272: pCube1
+    100274: pCube1 1
+    100276: pCube1 2
+    100278: pCube1 3
+    100280: pCube1 4
+    100282: pCube1 5
+    100284: pCube10
+    100286: pCube10 1
+    100288: pCube11
+    100290: pCube11 1
+    100292: pCube12
+    100294: pCube12 1
+    100296: pCube2
+    100298: pCube2 1
+    100300: pCube2 2
+    100302: pCube2 3
+    100304: pCube2 4
+    100306: pCube2 5
+    100308: pCube3
+    100310: pCube3 1
+    100312: pCube3 2
+    100314: pCube3 3
+    100316: pCube3 4
+    100318: pCube3 5
+    100320: pCube4
+    100322: pCube4 1
+    100324: pCube4 2
+    100326: pCube4 3
+    100328: pCube5
+    100330: pCube5 1
+    100332: pCube5 2
+    100334: pCube5 3
+    100336: pCube5 4
+    100338: pCube5 5
+    100340: pCube6
+    100342: pCube6 1
+    100344: pCube6 2
+    100346: pCube6 3
+    100348: pCube6 4
+    100350: pCube6 5
+    100352: pCube7
+    100354: pCube7 1
+    100356: pCube8
+    100358: pCube8 1
+    100360: pCube9
+    100362: pCube9 1
+    100364: Piso2
+    100366: Piso2 1
+    100368: Piso3
+    100370: Piso4
+    100372: Piso5
+    100374: Tienda_2
+    100376: Tienda_3
+    400000: Arbil_10
+    400002: Arbil_11
+    400004: Arbil_12
+    400006: Arbil_13
+    400008: Arbil_14
+    400010: Arbil_9
+    400012: Aviso_Grande1
+    400014: Aviso_Publicitario
+    400016: Aviso_Publicitario 1
+    400018: Banca_1
+    400020: Banca_2
+    400022: Banca_3
+    400024: Banca_4
+    400026: Barrotes
+    400028: Barrotes1
+    400030: Barrotes10
+    400032: Barrotes11
+    400034: Barrotes12
+    400036: Barrotes13
+    400038: Barrotes14
+    400040: Barrotes15
+    400042: Barrotes2
+    400044: Barrotes3
+    400046: Barrotes4
+    400048: Barrotes5
+    400050: Barrotes6
+    400052: Barrotes7
+    400054: Barrotes8
+    400056: Barrotes9
+    400058: Calles
+    400060: Calles1
+    400062: Carretera1
+    400064: Carretera2
+    400066: Carretera2 1
+    400068: Carretera5
+    400070: //RootNode
+    400072: Edificios3
+    400074: group
+    400076: Lampara10
+    400078: Lampara12
+    400080: Lampara13
+    400082: Lampara4
+    400084: Lampara5
+    400086: Lampara6
+    400088: Lampara7
+    400090: Lampara8
+    400092: Lampara9
+    400094: Lamparas
+    400096: Ostaculo10
+    400098: Ostaculo11
+    400100: Ostaculo3
+    400102: Ostaculo3 1
+    400104: Ostaculo3 10
+    400106: Ostaculo3 11
+    400108: Ostaculo3 12
+    400110: Ostaculo3 13
+    400112: Ostaculo3 14
+    400114: Ostaculo3 15
+    400116: Ostaculo3 2
+    400118: Ostaculo3 3
+    400120: Ostaculo3 4
+    400122: Ostaculo3 5
+    400124: Ostaculo3 6
+    400126: Ostaculo3 7
+    400128: Ostaculo3 8
+    400130: Ostaculo3 9
+    400132: Ostaculo4
+    400134: Ostaculo4 1
+    400136: Ostaculo4 10
+    400138: Ostaculo4 11
+    400140: Ostaculo4 12
+    400142: Ostaculo4 13
+    400144: Ostaculo4 14
+    400146: Ostaculo4 15
+    400148: Ostaculo4 2
+    400150: Ostaculo4 3
+    400152: Ostaculo4 4
+    400154: Ostaculo4 5
+    400156: Ostaculo4 6
+    400158: Ostaculo4 7
+    400160: Ostaculo4 8
+    400162: Ostaculo4 9
+    400164: Ostaculo5
+    400166: Ostaculo5 1
+    400168: Ostaculo5 10
+    400170: Ostaculo5 11
+    400172: Ostaculo5 12
+    400174: Ostaculo5 13
+    400176: Ostaculo5 14
+    400178: Ostaculo5 15
+    400180: Ostaculo5 2
+    400182: Ostaculo5 3
+    400184: Ostaculo5 4
+    400186: Ostaculo5 5
+    400188: Ostaculo5 6
+    400190: Ostaculo5 7
+    400192: Ostaculo5 8
+    400194: Ostaculo5 9
+    400196: Ostaculo6
+    400198: Ostaculo6 1
+    400200: Ostaculo6 10
+    400202: Ostaculo6 11
+    400204: Ostaculo6 12
+    400206: Ostaculo6 13
+    400208: Ostaculo6 14
+    400210: Ostaculo6 15
+    400212: Ostaculo6 2
+    400214: Ostaculo6 3
+    400216: Ostaculo6 4
+    400218: Ostaculo6 5
+    400220: Ostaculo6 6
+    400222: Ostaculo6 7
+    400224: Ostaculo6 8
+    400226: Ostaculo6 9
+    400228: Parada_de_buses
+    400230: Parada_de_buses 1
+    400232: Parada_de_buses 2
+    400234: Parada_de_buses1
+    400236: pasted__Edificio_10
+    400238: pasted__Edificio_12
+    400240: pasted__Edificio_13
+    400242: pasted__Edificio_14
+    400244: pasted__Edificio_15
+    400246: pasted__Edificio_16
+    400248: pasted__Edificio_17
+    400250: pasted__Edificio_18
+    400252: pasted__Edificio_19
+    400254: pasted__Edificio_20
+    400256: pasted__Edificio_21
+    400258: pasted__Edificio_3
+    400260: pasted__Edificio_4
+    400262: pasted__Edificio_5
+    400264: pasted__Edificio_7
+    400266: pasted__Edificio_8
+    400268: pasted__Edificio_9
+    400270: pasted__Edificios
+    400272: pCube1
+    400274: pCube1 1
+    400276: pCube1 2
+    400278: pCube1 3
+    400280: pCube1 4
+    400282: pCube1 5
+    400284: pCube10
+    400286: pCube10 1
+    400288: pCube11
+    400290: pCube11 1
+    400292: pCube12
+    400294: pCube12 1
+    400296: pCube2
+    400298: pCube2 1
+    400300: pCube2 2
+    400302: pCube2 3
+    400304: pCube2 4
+    400306: pCube2 5
+    400308: pCube3
+    400310: pCube3 1
+    400312: pCube3 2
+    400314: pCube3 3
+    400316: pCube3 4
+    400318: pCube3 5
+    400320: pCube4
+    400322: pCube4 1
+    400324: pCube4 2
+    400326: pCube4 3
+    400328: pCube5
+    400330: pCube5 1
+    400332: pCube5 2
+    400334: pCube5 3
+    400336: pCube5 4
+    400338: pCube5 5
+    400340: pCube6
+    400342: pCube6 1
+    400344: pCube6 2
+    400346: pCube6 3
+    400348: pCube6 4
+    400350: pCube6 5
+    400352: pCube7
+    400354: pCube7 1
+    400356: pCube8
+    400358: pCube8 1
+    400360: pCube9
+    400362: pCube9 1
+    400364: Piso2
+    400366: Piso2 1
+    400368: Piso3
+    400370: Piso4
+    400372: Piso5
+    400374: Tienda_2
+    400376: Tienda_3
+    2100000: Edificio_1_Crema
+    2100002: Edificio_1_Fachada
+    2100004: Edificio_1_Gris
+    2100006: Edificio_1_Blanco
+    2100008: phongE1
+    2100010: lambert1
+    2100012: lambert44
+    2100014: lambert12
+    2100016: lambert45
+    2100018: lambert46
+    2100020: lambert2
+    2100022: Acera
+    2100024: lambert70
+    2100026: lambert41
+    2100028: lambert66
+    2100030: lambert76
+    2100032: lambert67
+    2100034: lambert68
+    2100036: lambert27
+    2100038: lambert28
+    2100040: Madera_1
+    2100042: lambert26
+    2100044: lambert18
+    2100046: lambert17
+    2100048: lambert49
+    2100050: lambert15
+    2100052: lambert16
+    2100054: lambert19
+    2100056: lambert14
+    2100058: lambert13
+    2100060: Parques_1_pasted__pasted__Madera_1
+    2100062: Parques_1_pasted__pasted__Peaje_Blanco
+    2100064: Pared_1
+    2100066: Puerta_1
+    2100068: lambert35
+    2100070: reflejo
+    2100072: Poste
+    2100074: lambert20
+    2100076: lambert21
+    2100078: lambert22
+    2100080: lambert50
+    2100082: lambert24
+    2100084: Hojas
+    2100086: Tronco_arbol
+    2100088: lambert7
+    2100090: lambert8
+    2300000: Aviso_Grande1
+    2300002: Aviso_Publicitario
+    2300004: Aviso_Publicitario 1
+    2300006: Banca_1
+    2300008: Banca_2
+    2300010: Banca_3
+    2300012: Banca_4
+    2300014: Carretera1
+    2300016: Carretera2
+    2300018: Carretera2 1
+    2300020: Carretera5
+    2300022: Lampara10
+    2300024: Lampara12
+    2300026: Lampara13
+    2300028: Lampara4
+    2300030: Lampara5
+    2300032: Lampara6
+    2300034: Lampara7
+    2300036: Lampara8
+    2300038: Lampara9
+    2300040: Ostaculo10
+    2300042: Ostaculo11
+    2300044: Ostaculo3
+    2300046: Ostaculo3 1
+    2300048: Ostaculo3 10
+    2300050: Ostaculo3 11
+    2300052: Ostaculo3 12
+    2300054: Ostaculo3 13
+    2300056: Ostaculo3 14
+    2300058: Ostaculo3 15
+    2300060: Ostaculo3 2
+    2300062: Ostaculo3 3
+    2300064: Ostaculo3 4
+    2300066: Ostaculo3 5
+    2300068: Ostaculo3 6
+    2300070: Ostaculo3 7
+    2300072: Ostaculo3 8
+    2300074: Ostaculo3 9
+    2300076: Ostaculo4
+    2300078: Ostaculo4 1
+    2300080: Ostaculo4 10
+    2300082: Ostaculo4 11
+    2300084: Ostaculo4 12
+    2300086: Ostaculo4 13
+    2300088: Ostaculo4 14
+    2300090: Ostaculo4 15
+    2300092: Ostaculo4 2
+    2300094: Ostaculo4 3
+    2300096: Ostaculo4 4
+    2300098: Ostaculo4 5
+    2300100: Ostaculo4 6
+    2300102: Ostaculo4 7
+    2300104: Ostaculo4 8
+    2300106: Ostaculo4 9
+    2300108: Ostaculo5
+    2300110: Ostaculo5 1
+    2300112: Ostaculo5 10
+    2300114: Ostaculo5 11
+    2300116: Ostaculo5 12
+    2300118: Ostaculo5 13
+    2300120: Ostaculo5 14
+    2300122: Ostaculo5 15
+    2300124: Ostaculo5 2
+    2300126: Ostaculo5 3
+    2300128: Ostaculo5 4
+    2300130: Ostaculo5 5
+    2300132: Ostaculo5 6
+    2300134: Ostaculo5 7
+    2300136: Ostaculo5 8
+    2300138: Ostaculo5 9
+    2300140: Ostaculo6
+    2300142: Ostaculo6 1
+    2300144: Ostaculo6 10
+    2300146: Ostaculo6 11
+    2300148: Ostaculo6 12
+    2300150: Ostaculo6 13
+    2300152: Ostaculo6 14
+    2300154: Ostaculo6 15
+    2300156: Ostaculo6 2
+    2300158: Ostaculo6 3
+    2300160: Ostaculo6 4
+    2300162: Ostaculo6 5
+    2300164: Ostaculo6 6
+    2300166: Ostaculo6 7
+    2300168: Ostaculo6 8
+    2300170: Ostaculo6 9
+    2300172: pasted__Edificio_10
+    2300174: pasted__Edificio_12
+    2300176: pasted__Edificio_13
+    2300178: pasted__Edificio_14
+    2300180: pasted__Edificio_15
+    2300182: pasted__Edificio_16
+    2300184: pasted__Edificio_17
+    2300186: pasted__Edificio_18
+    2300188: pasted__Edificio_19
+    2300190: pasted__Edificio_20
+    2300192: pasted__Edificio_21
+    2300194: pasted__Edificio_3
+    2300196: pasted__Edificio_4
+    2300198: pasted__Edificio_5
+    2300200: pasted__Edificio_7
+    2300202: pasted__Edificio_8
+    2300204: pasted__Edificio_9
+    2300206: pCube1
+    2300208: pCube1 1
+    2300210: pCube1 2
+    2300212: pCube1 3
+    2300214: pCube1 4
+    2300216: pCube1 5
+    2300218: pCube10
+    2300220: pCube10 1
+    2300222: pCube11
+    2300224: pCube11 1
+    2300226: pCube12
+    2300228: pCube12 1
+    2300230: pCube2
+    2300232: pCube2 1
+    2300234: pCube2 2
+    2300236: pCube2 3
+    2300238: pCube2 4
+    2300240: pCube2 5
+    2300242: pCube3
+    2300244: pCube3 1
+    2300246: pCube3 2
+    2300248: pCube3 3
+    2300250: pCube3 4
+    2300252: pCube3 5
+    2300254: pCube4
+    2300256: pCube4 1
+    2300258: pCube4 2
+    2300260: pCube4 3
+    2300262: pCube5
+    2300264: pCube5 1
+    2300266: pCube5 2
+    2300268: pCube5 3
+    2300270: pCube5 4
+    2300272: pCube5 5
+    2300274: pCube6
+    2300276: pCube6 1
+    2300278: pCube6 2
+    2300280: pCube6 3
+    2300282: pCube6 4
+    2300284: pCube6 5
+    2300286: pCube7
+    2300288: pCube7 1
+    2300290: pCube8
+    2300292: pCube8 1
+    2300294: pCube9
+    2300296: pCube9 1
+    2300298: Piso2
+    2300300: Piso2 1
+    2300302: Piso3
+    2300304: Piso4
+    2300306: Piso5
+    2300308: Tienda_2
+    2300310: Tienda_3
+    3300000: Aviso_Grande1
+    3300002: Aviso_Publicitario
+    3300004: Aviso_Publicitario 1
+    3300006: Banca_1
+    3300008: Banca_2
+    3300010: Banca_3
+    3300012: Banca_4
+    3300014: Carretera1
+    3300016: Carretera2
+    3300018: Carretera2 1
+    3300020: Carretera5
+    3300022: Lampara10
+    3300024: Lampara12
+    3300026: Lampara13
+    3300028: Lampara4
+    3300030: Lampara5
+    3300032: Lampara6
+    3300034: Lampara7
+    3300036: Lampara8
+    3300038: Lampara9
+    3300040: Ostaculo10
+    3300042: Ostaculo11
+    3300044: Ostaculo3
+    3300046: Ostaculo3 1
+    3300048: Ostaculo3 10
+    3300050: Ostaculo3 11
+    3300052: Ostaculo3 12
+    3300054: Ostaculo3 13
+    3300056: Ostaculo3 14
+    3300058: Ostaculo3 15
+    3300060: Ostaculo3 2
+    3300062: Ostaculo3 3
+    3300064: Ostaculo3 4
+    3300066: Ostaculo3 5
+    3300068: Ostaculo3 6
+    3300070: Ostaculo3 7
+    3300072: Ostaculo3 8
+    3300074: Ostaculo3 9
+    3300076: Ostaculo4
+    3300078: Ostaculo4 1
+    3300080: Ostaculo4 10
+    3300082: Ostaculo4 11
+    3300084: Ostaculo4 12
+    3300086: Ostaculo4 13
+    3300088: Ostaculo4 14
+    3300090: Ostaculo4 15
+    3300092: Ostaculo4 2
+    3300094: Ostaculo4 3
+    3300096: Ostaculo4 4
+    3300098: Ostaculo4 5
+    3300100: Ostaculo4 6
+    3300102: Ostaculo4 7
+    3300104: Ostaculo4 8
+    3300106: Ostaculo4 9
+    3300108: Ostaculo5
+    3300110: Ostaculo5 1
+    3300112: Ostaculo5 10
+    3300114: Ostaculo5 11
+    3300116: Ostaculo5 12
+    3300118: Ostaculo5 13
+    3300120: Ostaculo5 14
+    3300122: Ostaculo5 15
+    3300124: Ostaculo5 2
+    3300126: Ostaculo5 3
+    3300128: Ostaculo5 4
+    3300130: Ostaculo5 5
+    3300132: Ostaculo5 6
+    3300134: Ostaculo5 7
+    3300136: Ostaculo5 8
+    3300138: Ostaculo5 9
+    3300140: Ostaculo6
+    3300142: Ostaculo6 1
+    3300144: Ostaculo6 10
+    3300146: Ostaculo6 11
+    3300148: Ostaculo6 12
+    3300150: Ostaculo6 13
+    3300152: Ostaculo6 14
+    3300154: Ostaculo6 15
+    3300156: Ostaculo6 2
+    3300158: Ostaculo6 3
+    3300160: Ostaculo6 4
+    3300162: Ostaculo6 5
+    3300164: Ostaculo6 6
+    3300166: Ostaculo6 7
+    3300168: Ostaculo6 8
+    3300170: Ostaculo6 9
+    3300172: pasted__Edificio_10
+    3300174: pasted__Edificio_12
+    3300176: pasted__Edificio_13
+    3300178: pasted__Edificio_14
+    3300180: pasted__Edificio_15
+    3300182: pasted__Edificio_16
+    3300184: pasted__Edificio_17
+    3300186: pasted__Edificio_18
+    3300188: pasted__Edificio_19
+    3300190: pasted__Edificio_20
+    3300192: pasted__Edificio_21
+    3300194: pasted__Edificio_3
+    3300196: pasted__Edificio_4
+    3300198: pasted__Edificio_5
+    3300200: pasted__Edificio_7
+    3300202: pasted__Edificio_8
+    3300204: pasted__Edificio_9
+    3300206: pCube1
+    3300208: pCube1 1
+    3300210: pCube1 2
+    3300212: pCube1 3
+    3300214: pCube1 4
+    3300216: pCube1 5
+    3300218: pCube10
+    3300220: pCube10 1
+    3300222: pCube11
+    3300224: pCube11 1
+    3300226: pCube12
+    3300228: pCube12 1
+    3300230: pCube2
+    3300232: pCube2 1
+    3300234: pCube2 2
+    3300236: pCube2 3
+    3300238: pCube2 4
+    3300240: pCube2 5
+    3300242: pCube3
+    3300244: pCube3 1
+    3300246: pCube3 2
+    3300248: pCube3 3
+    3300250: pCube3 4
+    3300252: pCube3 5
+    3300254: pCube4
+    3300256: pCube4 1
+    3300258: pCube4 2
+    3300260: pCube4 3
+    3300262: pCube5
+    3300264: pCube5 1
+    3300266: pCube5 2
+    3300268: pCube5 3
+    3300270: pCube5 4
+    3300272: pCube5 5
+    3300274: pCube6
+    3300276: pCube6 1
+    3300278: pCube6 2
+    3300280: pCube6 3
+    3300282: pCube6 4
+    3300284: pCube6 5
+    3300286: pCube7
+    3300288: pCube7 1
+    3300290: pCube8
+    3300292: pCube8 1
+    3300294: pCube9
+    3300296: pCube9 1
+    3300298: Piso2
+    3300300: Piso2 1
+    3300302: Piso3
+    3300304: Piso4
+    3300306: Piso5
+    3300308: Tienda_2
+    3300310: Tienda_3
+    4300000: pasted__Edificio_3
+    4300002: pasted__Edificio_4
+    4300004: pasted__Edificio_5
+    4300006: pasted__Edificio_7
+    4300008: pasted__Edificio_8
+    4300010: pasted__Edificio_9
+    4300012: pasted__Edificio_10
+    4300014: pasted__Edificio_12
+    4300016: pasted__Edificio_13
+    4300018: pasted__Edificio_14
+    4300020: pasted__Edificio_15
+    4300022: pasted__Edificio_16
+    4300024: pasted__Edificio_17
+    4300026: pasted__Edificio_18
+    4300028: pasted__Edificio_19
+    4300030: pasted__Edificio_20
+    4300032: pasted__Edificio_21
+    4300034: Lampara4
+    4300036: Lampara5
+    4300038: Lampara6
+    4300040: Lampara7
+    4300042: Lampara8
+    4300044: Lampara9
+    4300046: Lampara10
+    4300048: Lampara12
+    4300050: Lampara13
+    4300052: Ostaculo3
+    4300054: Ostaculo4
+    4300056: Ostaculo5
+    4300058: Ostaculo6
+    4300060: Carretera2
+    4300062: Piso2
+    4300064: Carretera1
+    4300066: Carretera2
+    4300068: Piso2
+    4300070: Piso3
+    4300072: Carretera5
+    4300074: Ostaculo3
+    4300076: Ostaculo4
+    4300078: Ostaculo5
+    4300080: Ostaculo6
+    4300082: pCube9
+    4300084: pCube10
+    4300086: pCube11
+    4300088: pCube12
+    4300090: Aviso_Publicitario
+    4300092: pCube7
+    4300094: pCube8
+    4300096: pCube9
+    4300098: pCube10
+    4300100: pCube11
+    4300102: pCube12
+    4300104: Aviso_Publicitario
+    4300106: pCube7
+    4300108: pCube8
+    4300110: Banca_1
+    4300112: Banca_2
+    4300114: Banca_3
+    4300116: Banca_4
+    4300118: Tienda_2
+    4300120: Tienda_3
+    4300122: Ostaculo3
+    4300124: Ostaculo4
+    4300126: Ostaculo5
+    4300128: Ostaculo6
+    4300130: Ostaculo3
+    4300132: Ostaculo4
+    4300134: Ostaculo5
+    4300136: Ostaculo6
+    4300138: Ostaculo3
+    4300140: Ostaculo4
+    4300142: Ostaculo5
+    4300144: Ostaculo6
+    4300146: Ostaculo3
+    4300148: Ostaculo4
+    4300150: Ostaculo5
+    4300152: Ostaculo6
+    4300154: Ostaculo3
+    4300156: Ostaculo4
+    4300158: Ostaculo5
+    4300160: Ostaculo6
+    4300162: Ostaculo3
+    4300164: Ostaculo4
+    4300166: Ostaculo5
+    4300168: Ostaculo6
+    4300170: Ostaculo3
+    4300172: Ostaculo4
+    4300174: Ostaculo5
+    4300176: Ostaculo6
+    4300178: Ostaculo3
+    4300180: Ostaculo4
+    4300182: Ostaculo5
+    4300184: Ostaculo6
+    4300186: Ostaculo3
+    4300188: Ostaculo4
+    4300190: Ostaculo5
+    4300192: Ostaculo6
+    4300194: Ostaculo3
+    4300196: Ostaculo4
+    4300198: Ostaculo5
+    4300200: Ostaculo6
+    4300202: Ostaculo3
+    4300204: Ostaculo4
+    4300206: Ostaculo5
+    4300208: Ostaculo6
+    4300210: Piso4
+    4300212: Piso5
+    4300214: Aviso_Grande1
+    4300216: pCube3
+    4300218: pCube2
+    4300220: pCube1
+    4300222: pCube4
+    4300224: pCube5
+    4300226: pCube6
+    4300228: pCube3
+    4300230: pCube2
+    4300232: pCube1
+    4300234: pCube4
+    4300236: pCube5
+    4300238: pCube6
+    4300240: pCube3
+    4300242: pCube2
+    4300244: pCube1
+    4300246: pCube4
+    4300248: pCube5
+    4300250: pCube6
+    4300252: pCube3
+    4300254: pCube2
+    4300256: pCube1
+    4300258: pCube4
+    4300260: pCube5
+    4300262: pCube6
+    4300264: pCube3
+    4300266: pCube2
+    4300268: pCube1
+    4300270: pCube5
+    4300272: pCube6
+    4300274: pCube3
+    4300276: pCube2
+    4300278: pCube1
+    4300280: pCube5
+    4300282: pCube6
+    4300284: Ostaculo3
+    4300286: Ostaculo4
+    4300288: Ostaculo5
+    4300290: Ostaculo6
+    4300292: Ostaculo3
+    4300294: Ostaculo4
+    4300296: Ostaculo5
+    4300298: Ostaculo6
+    4300300: Ostaculo3
+    4300302: Ostaculo4
+    4300304: Ostaculo5
+    4300306: Ostaculo6
+    4300308: Ostaculo10
+    4300310: Ostaculo11
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
