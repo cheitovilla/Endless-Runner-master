@@ -13,6 +13,7 @@ public class PruebaPlayer : MonoBehaviour {
 
 	private bool isDead = false;
 
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
@@ -47,7 +48,9 @@ public class PruebaPlayer : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collision){
 		if (collision.gameObject.tag == "Obstaculo") {
+
 			Death ();
+	
 		}
 		
 	}
