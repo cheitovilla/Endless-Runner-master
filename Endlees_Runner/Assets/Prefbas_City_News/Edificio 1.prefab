@@ -4339,7 +4339,7 @@ GameObject:
   - component: {fileID: 65216838241091592}
   m_Layer: 0
   m_Name: Carretera2 1
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5671,7 +5671,7 @@ GameObject:
   - component: {fileID: 65840934875066954}
   m_Layer: 0
   m_Name: Carretera2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10030,7 +10030,7 @@ GameObject:
   - component: {fileID: 4145960996275796}
   m_Layer: 0
   m_Name: Calles1
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10298,7 +10298,7 @@ GameObject:
   - component: {fileID: 23630047665942964}
   m_Layer: 0
   m_Name: Carretera1
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27455,8 +27455,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022478865, y: 0.024562817, z: 0.057495568}
-  m_Center: {x: 0.0002301135, y: 0.00083349505, z: -0.00035288607}
+  m_Size: {x: 0.023616696, y: 0.018889511, z: 0.057495568}
+  m_Center: {x: 0.0021235337, y: -0.00085487595, z: -0.0003528865}
 --- !u!95 &95079950483506458
 Animator:
   serializedVersion: 3

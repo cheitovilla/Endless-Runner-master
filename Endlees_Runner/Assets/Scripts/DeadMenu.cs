@@ -28,7 +28,7 @@ public class DeadMenu : MonoBehaviour {
 
 	public void ToggleEndMenu(float score){
 		gameObject.SetActive (true);
-		scoreCorridoText.text = ((int)score).ToString ();
+		scoreCorridoText.text = ((int)score).ToString () + " m.";
 		isShowned = true;
 	}
 

@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 65368948393458956}
   m_Layer: 0
   m_Name: Carretera2 1
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12753,7 +12753,7 @@ GameObject:
   - component: {fileID: 23197399110763948}
   m_Layer: 0
   m_Name: Carretera1
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16654,7 +16654,7 @@ GameObject:
   - component: {fileID: 65247202802280280}
   m_Layer: 0
   m_Name: Carretera2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

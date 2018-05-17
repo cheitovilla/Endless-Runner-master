@@ -11,16 +11,14 @@ public class PruebaPlayer : MonoBehaviour {
 	public Audio audio;
 	Animator anim;
 
+	public bool enSuelo = true;
 	private bool isDead = false;
-
+	//PruebaPlayer powerUps;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		anim = GetComponent<Animator> ();
-
-
-
 	}
 
 	// Update is called once per frame
@@ -34,10 +32,14 @@ public class PruebaPlayer : MonoBehaviour {
 		rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y, moveSpeed);
 
 		if (Input.GetKeyDown(KeyCode.X)) {
-			anim.SetTrigger ("jump");
-			rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
-			audio.SonarSalto ();
+			if (enSuelo) {
+				enSuelo = false;
+				anim.SetTrigger ("jump");
+				rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
+				audio.SonarSalto ();
+			}
 		} 
+
 
 		if (Input.GetKeyDown(KeyCode.C)) {
 			anim.SetTrigger ("slide");
@@ -48,9 +50,24 @@ public class PruebaPlayer : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collision){
 		if (collision.gameObject.tag == "Obstaculo") {
+			//Death();
+			if (FindObjectOfType<PowerUps> ().shield == true) {
+				Destroy (collision.gameObject);
+				FindObjectOfType<PowerUps> ().powerUp_shield.SetActive (false);
+			}
 
-			Death ();
-	
+			if(FindObjectOfType<PowerUps>().shield == false) {
+				Death ();
+			}
+				
+		
+		}
+
+
+
+
+		if (collision.gameObject.tag == "Piso") {
+			enSuelo = true;
 		}
 		
 	}
@@ -62,11 +79,9 @@ public class PruebaPlayer : MonoBehaviour {
 		GetComponent<Score> ().onDeath ();
 	}
 	 	
-
-
 	public void SetSpeed(float modifer){
 		moveSpeed = 5.0f + modifer;
 	}
 
-	
+
 }

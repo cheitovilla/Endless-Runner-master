@@ -497,7 +497,7 @@ MonoBehaviour:
   sepBlurSpread: 0.1
   quality: 1
   bloomIntensity: 0.46
-  bloomThreshold: 0.75
+  bloomThreshold: 0.99
   bloomThresholdColor: {r: 1, g: 1, b: 1, a: 1}
   bloomBlurIterations: 2
   hollywoodFlareBlurIterations: 2
@@ -562,12 +562,12 @@ RectTransform:
   m_Children:
   - {fileID: 999294830}
   m_Father: {fileID: 995827100}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 27, y: 0}
-  m_SizeDelta: {x: 181.18, y: 94.34}
+  m_SizeDelta: {x: 154.15, y: 84.01}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &509110139
 MonoBehaviour:
@@ -768,6 +768,7 @@ MonoBehaviour:
   moveSpeed: 5
   JumpForce: 4
   audio: {fileID: 1780384342}
+  enSuelo: 1
 --- !u!54 &605142913
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -902,6 +903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUp_shield: {fileID: 1598690945}
+  shield: 0
 --- !u!1 &714095197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,8 +2161,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 515473236}
-  - {fileID: 1355487994}
   - {fileID: 509110138}
+  - {fileID: 1355487994}
   - {fileID: 32464025}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2217,11 +2219,11 @@ RectTransform:
   m_Father: {fileID: 509110138}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 94.3, y: -31.4}
-  m_SizeDelta: {x: 69.83, y: 30}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 33.14, y: 0.35279846}
+  m_SizeDelta: {x: 58.54, y: 29.29}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &999294831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2611,7 +2613,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 995827100}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
