@@ -24,6 +24,15 @@ public class Puntaje : MonoBehaviour {
 			audio.SonarDiamante ();
 			other.gameObject.SetActive (false);
 			count = count + 10;
+			Debug.Log (count);
+			SetCountText ();
+		}
+
+		if (other.gameObject.CompareTag("Diamantes") && FindObjectOfType<PowerUps>().x2 == true) {
+			audio.SonarDiamante ();
+			other.gameObject.SetActive (false);
+			count = count + 20;
+			Debug.Log (count);
 			SetCountText ();
 		}
 	}

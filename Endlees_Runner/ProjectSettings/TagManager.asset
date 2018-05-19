@@ -6,8 +6,9 @@ TagManager:
   tags:
   - Diamantes
   - Obstaculo
-  - powerUp
   - Piso
+  - powerUpShield
+  - powerUpx2
   layers:
   - Default
   - TransparentFX

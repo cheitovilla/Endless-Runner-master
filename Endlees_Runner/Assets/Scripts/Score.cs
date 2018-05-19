@@ -31,7 +31,7 @@ public class Score : MonoBehaviour {
 			LevelUp ();
 		
 			score += Time.deltaTime * difficultyLevell;
-			scoreText.text = ((int)score).ToString () + " m.";
+			scoreText.text = ((int)score).ToString () + " m";
 
 
 	}
