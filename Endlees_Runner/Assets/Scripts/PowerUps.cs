@@ -9,6 +9,7 @@ public class PowerUps : MonoBehaviour {
 	public float timeShield;
 	public bool x2;
 	public float timex2 = 0f;
+	public AudioSource audio_powerup;
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,7 @@ public class PowerUps : MonoBehaviour {
 			//powerUp_shield.SetActive (true);
 			shield = true;
 			Destroy (other.gameObject);
+			audio_powerup.Play ();
 			//if (FindObjectOfType<PruebaPlayer> ())
 			//	FindObjectOfType<PruebaPlayer> ().shieldActive = true;
 		} 
@@ -34,6 +36,7 @@ public class PowerUps : MonoBehaviour {
 		if (other.tag == "powerUpx2") {
 			x2 = true;
 			Destroy (other.gameObject);
+			audio_powerup.Play ();
 		}
 			
 	}
