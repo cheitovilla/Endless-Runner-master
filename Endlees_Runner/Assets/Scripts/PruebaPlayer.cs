@@ -21,6 +21,21 @@ public class PruebaPlayer : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 	}
 
+	public void Saltarr(){
+		if (enSuelo) {
+			enSuelo = false;
+			anim.SetTrigger ("jump");
+			rb.velocity = new Vector3 (rb.velocity.x, JumpForce, moveSpeed);
+			audio.SonarSalto ();
+		}
+	}
+
+	public void Slidee(){
+		anim.SetTrigger ("slide");
+		audio.SonarDeslizar ();
+
+	}
+
 	// Update is called once per frame
 	void Update () {
 
