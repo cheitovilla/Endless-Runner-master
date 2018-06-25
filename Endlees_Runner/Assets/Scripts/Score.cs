@@ -33,7 +33,9 @@ public class Score : MonoBehaviour {
 			score += Time.deltaTime * difficultyLevell;
 			scoreText.text = ((int)score).ToString () + " m";
 
-
+		if (score >=500) {
+			score = 500;
+		}
 	}
 
 

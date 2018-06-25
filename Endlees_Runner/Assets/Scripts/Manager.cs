@@ -15,6 +15,8 @@ public class Manager : MonoBehaviour {
 	private List<GameObject> activeTiles;
 
 
+
+
 	// Use this for initialization
 	void Start () {
 		activeTiles = new List<GameObject> ();
@@ -22,7 +24,7 @@ public class Manager : MonoBehaviour {
 
 		for (int i = 0; i < amTileOnScreen; i++) {
 			if (i < 2)
-				SpawnTile (0);
+				SpawnTile (0); //esta es la linea que hace la vulta de repetir creo iba 0
 			else
 				SpawnTile ();	
 		}
@@ -32,10 +34,16 @@ public class Manager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (playerTransform.position.z - safeZone> (spawnZ- amTileOnScreen * tileLeght)) {
+		if (playerTransform.position.z - safeZone> (spawnZ- amTileOnScreen * tileLeght) &&
+			playerTransform.position.z < 700) {
 			SpawnTile ();
 			DeleteTile ();
 		}
+
+		//aqui posiblemente va el fin del mundo
+//		if (playerTransform.position.z > 800) {
+//			
+//		}
 		
 	}
 

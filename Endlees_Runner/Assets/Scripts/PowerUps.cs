@@ -5,6 +5,7 @@ using UnityEngine;
 public class PowerUps : MonoBehaviour {
 
 	public GameObject powerUp_shield;
+	public GameObject textPowerUpx2;
 	public bool shield;
 	public float timeShield;
 	public bool x2;
@@ -35,6 +36,7 @@ public class PowerUps : MonoBehaviour {
 
 		if (other.tag == "powerUpx2") {
 			x2 = true;
+			textPowerUpx2.SetActive (true);
 			Destroy (other.gameObject);
 			audio_powerup.Play ();
 		}
@@ -54,6 +56,7 @@ public class PowerUps : MonoBehaviour {
 			if (timex2>= 7) {
 				timex2 = 0;
 				x2 = false;
+				textPowerUpx2.SetActive (false);
 			}
 		}
 	}

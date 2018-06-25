@@ -6,10 +6,12 @@ public class Audio : MonoBehaviour
 {
 	public Transform spawnpoint;
 	public AudioSource source;
+	public AudioClip musicaFondo;
 	public AudioClip efectoMenu;
 	public AudioClip efectoDiamante;
 	public AudioClip efectoSalto;
 	public AudioClip efectoDeslizar;
+//	public AudioClip efectoGanar;
 	
 
 //aquí estan todos los audios asignados
@@ -17,12 +19,17 @@ public class Audio : MonoBehaviour
 	{
 		{
 			source = spawnpoint.GetComponent<AudioSource> ();
+
 		}
 	}
 
 	private void Update ()
 	{
 		
+	}
+
+	public void AudioFondo(){
+		source.PlayOneShot (musicaFondo);
 	}
 
 	public void SonarDiamante ()
@@ -43,6 +50,11 @@ public class Audio : MonoBehaviour
 	public void SonarDeslizar(){
 		source.PlayOneShot (efectoDeslizar);
 	}
+
+//	public void SonarGanar(){
+//		source.PlayOneShot (efectoGanar);
+//
+//	}
 
 }
 

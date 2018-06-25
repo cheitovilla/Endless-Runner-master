@@ -27,6 +27,20 @@ public class AnimVFX : MonoBehaviour {
 			//gameObject.transform.position = new Vector3 (0.022f, 0f, gameObject.transform.position.z);
 		} 
 
+		if (target.transform.position.z >= 940) {
+			anim.SetTrigger ("victory");
+			gameObject.transform.position = new Vector3 (target.position.x, 1.5f, target.transform.position.z);
+		}
+			
+	}
 
+	public void Jumping(){
+		anim.SetTrigger ("jump");
+		gameObject.transform.position = new Vector3 (target.position.x, 0.7f, target.position.z + 1f);
+	}
+
+	public void Sliding(){
+		anim.SetTrigger ("slide");
+		gameObject.transform.position = new Vector3 (target.position.x, 0f, target.position.z + 2f);
 	}
 }

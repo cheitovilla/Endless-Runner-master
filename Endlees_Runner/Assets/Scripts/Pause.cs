@@ -7,10 +7,10 @@ public class Pause : MonoBehaviour {
 
 	public GameObject panel_pause;
 
-	float time;
+
 	// Use this for initialization
 	void Start () {
-		
+		Time.timeScale = 1;
 	}
 	
 	// Update is called once per frame
@@ -21,12 +21,16 @@ public class Pause : MonoBehaviour {
 
 	public void Pausa(){
 		panel_pause.SetActive (true);
+
 		Time.timeScale = 0;
+
 	}
 
 	public void Reanudar(){
+		
 		panel_pause.SetActive (false);
 		Time.timeScale = 1;
+
 	}
 
 	public void VolverInicio(){

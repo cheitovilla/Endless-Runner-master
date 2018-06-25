@@ -19,6 +19,7 @@ public class PruebaPlayer : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		anim = GetComponent<Animator> ();
+		audio.AudioFondo ();
 	}
 
 	public void Saltarr(){
@@ -46,6 +47,9 @@ public class PruebaPlayer : MonoBehaviour {
 		
 		rb.velocity = new Vector3 (rb.velocity.x, rb.velocity.y, moveSpeed);
 
+		//Saltarr ();
+		//Slidee ();
+
 		if (Input.GetKeyDown(KeyCode.X)) {
 			if (enSuelo) {
 				enSuelo = false;
@@ -60,7 +64,13 @@ public class PruebaPlayer : MonoBehaviour {
 			anim.SetTrigger ("slide");
 			audio.SonarDeslizar ();
 		}
-		
+
+		if (rb.transform.position.z>=940) {
+			anim.SetTrigger ("victory");
+			rb.velocity = new Vector3 (0, 0, 0);
+			//audio.SonarGanar ();
+		}
+
 	}
 
 	private void OnCollisionEnter(Collision collision){
